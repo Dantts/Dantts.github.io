@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../../Images/backgrand.jpg');
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 95vw;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 50vh 30vh;
+
+    height: 90vh;
+    width: 90vw;
+}
+
+.panelContainer{
+    display: flex;
+    background: white;
+    grid-column: 2/4;
+    grid-row: 1/4;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panelContainer main{
+    display: flex;
+    flex-direction: row;
+    height: 96%;
+    width: 100%;
+}
+
+ul li h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    transition: all 0.1s;
+    margin-left: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.1s;
+}
+a:hover{
+    border-bottom: 2px solid black;
+}
+
+.footer{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 0.1s;
+}
+
+.footer:hover{
+    border-bottom: 2px solid black;
+}
